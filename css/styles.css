@@ -54,6 +54,38 @@ img {
   color: #2e2f42;
 }
 
+.page-header {
+  /* Додаткові стилі для хедера за потребою */
+}
+
+.header-container {
+  display: flex;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo-webstudio {
+  margin-right: 76px;
+}
+
+.menu-list {
+  display: flex;
+  gap: 40px;
+}
+
+.menu-link {
+  padding: 24px 0;
+  display: block;
+}
+
+.contact-list {
+  display: flex;
+  gap: 40px;
+}
+
 /* === МЕНЮ-ЛІНКИ === */
 .menu-link {
   font-weight: 500;
