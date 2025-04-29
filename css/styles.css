@@ -4,6 +4,26 @@ body {
   background-color: #ffffff;
 }
 
+/* === RESET HEADINGS, PARAGRAPHS, LISTS === */
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* === CONTAINER === */
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* === SECTION === */
+.section {
+  padding: 120px 0;
+}
+
 /* === ЛОГОТИП === */
 .logo-webstudio {
   font-family: "Raleway", sans-serif;
@@ -53,14 +73,11 @@ body {
   color: #404bbf;
 }
 
-/* footer ============================================================
-==================================================================== */
-
+/* footer ============================================================ */
 .footer-dark {
   background-color: #2e2f42;
 }
 
-/* Логотип у футері */
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -88,13 +105,11 @@ body {
   text-decoration: none;
 }
 
-/* Секція ======================== */
-
+/* Секція */
 .business-section {
   background-color: #2e2f42;
 }
 
-/* Заголовок */
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
@@ -103,7 +118,6 @@ body {
   color: #ffffff;
 }
 
-/* Кнопка */
 .order-button {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
@@ -120,10 +134,7 @@ body {
   background-color: #404bbf;
 }
 
-/* ========================================= 
- 2 секція
- ========================================= */
-
+/* 2 секція */
 .feature-title {
   font-weight: 500;
   font-size: 20px;
@@ -139,29 +150,38 @@ body {
   color: #434455;
 }
 
-/* ========================================= 
- 3 секція
- ========================================= */
+.features-list,
+.team-list,
+.portfolio-list {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* 3 секція */
 .team-section {
   background-color: #f4f4fd;
 }
 
 .section-title {
+  font-size: 36px;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .team-member {
   background-color: #ffffff;
 }
-.team-position {
-  line-height: 1.5;
-}
+
 .team-name {
   font-weight: 500;
   font-size: 20px;
@@ -172,7 +192,6 @@ body {
   margin-top: 16px;
 }
 
-/* Стиль для посади учасника */
 .team-position {
   font-size: 16px;
   line-height: 1.5;
@@ -181,25 +200,16 @@ body {
   text-align: center;
   margin-bottom: 16px;
 }
-/* ========================================= 
- 4 секція
- ========================================= */
 
-.section-title {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
+/* 4 секція */
 .portfolio-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 
 .portfolio-text {
@@ -207,4 +217,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.portfolio-item {
+  border-bottom: 1px solid #e7e9fc;
+  padding-bottom: 20px;
 }
