@@ -55,7 +55,7 @@ img {
 }
 
 .page-header {
-  /* Додаткові стилі для хедера за потребою */
+  /* Додаткові стил для хедера  */
 }
 
 .header-container {
@@ -152,7 +152,11 @@ img {
 }
 
 /* Секція */
+.visually-hidden {
+  max-width: 496px;
+}
 .business-section {
+  padding: 180px 0;
   background-color: #2e2f42;
 }
 
@@ -165,6 +169,10 @@ img {
 }
 
 .order-button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -173,6 +181,7 @@ img {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .order-button:hover,
