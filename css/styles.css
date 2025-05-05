@@ -172,7 +172,7 @@ img {
 }
 /* 48 пх для зоголовка є */
 .hero-title {
-  margin-bottom: 48px;
+ 
   max-width: 496px;
   margin: 0 auto;
   font-size: 56px;
@@ -180,6 +180,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+margin-bottom: 48px;
 }
 
 .order-button {
@@ -339,7 +340,7 @@ img {
   row-gap: 48px;
 }
 .portfolio-item {
-  display: flex;
+/*   display: flex; */
   /* flex-wrap: wrap; */
   width: calc((100% - 48px) / 3);
 }
